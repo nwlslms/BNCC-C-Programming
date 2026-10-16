@@ -1,30 +1,28 @@
-# c-A: Session 1
+# C Programming - C: Session 1
 
-> Review
+# START DI 19.35
 
 > Main Course
 - [ ] C Programming Language: Introduction
-    *Write Once, Run Everywhere*
-    - c merupakan bahasa pemrograman yang ditemukan oleh **James Gosling**.
-    - Merupakan pengembangan dari C dan C++.
-    - c merupakan bahasa yang digunakan dalam Object Oriented Programming (OOP).
+    - C merupakan bahasa pemrograman yang ditemukan oleh **Dennis Ritchie**.
+    - Meneruskan bahasa B, untuk sistem operasi UNIX.
     - C: Function and Struct
     - C++/c/Python: Class dan Object
-    - Proses c: Code (.c) -> Compiling bytecode (.class) -> Execute (c Virtual Machine)
+    - Proses c: Code (.c) -> Compiling (Biner) -> Build (.exe) -> Run
 
 - [ ] Installing Dev-C++
     - [Dev-C++](https://sourceforge.net/projects/orwelldevcpp/.)
 
 - [ ] File Structure
-    - Project
-        File tempat kita menyimpan projek c.
-    - Class
-        File tempat kita menulis code.
+    - File .c
+        Tempat kita menulis code
+    - File .exe
+        Hasil build dari File.c
 
 - [ ] Data Types
     > Jenis data yang disimpan.
-    - Primitive
-        |Primitive|Rentang|Byte|
+    - Jenis
+        |Data Types|Rentang|Byte|
         |:-:|:-:|:-:|
         |char|-128 s/d 127 (ASCII)|1|
         |short|-32768 s/d 32767|2|
