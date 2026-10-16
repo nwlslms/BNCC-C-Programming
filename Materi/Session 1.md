@@ -3,42 +3,53 @@
 # START DI 19.35
 
 > Main Course
-- [ ] C Programming Language: Introduction
+- [x] C Programming Language: Introduction
     - C merupakan bahasa pemrograman yang ditemukan oleh **Dennis Ritchie**.
     - Meneruskan bahasa B, untuk sistem operasi UNIX.
     - C: Function and Struct
     - C++/c/Python: Class dan Object
     - Proses c: Code (.c) -> Compiling (Biner) -> Build (.exe) -> Run
 
-- [ ] Installing Dev-C++
+- [x] Installing Dev-C++
     - [Dev-C++](https://sourceforge.net/projects/orwelldevcpp/.)
 
-- [ ] File Structure
-    - File .c
+- [x] File Structure
+    - File .c/.cpp
         Tempat kita menulis code
     - File .exe
         Hasil build dari File.c
 
-- [ ] Data Types
+- [x] Data Types
     > Jenis data yang disimpan.
     - Jenis
+        - Bilangan bulat: short, unsigned short, int, unsigned int, **long**, **unsigned long**, long long, unsigned long long.
+        - Bilangan desimal: float,  double
+        - Character: char, char []
+        - Boolean: bool, short, int
+
+        > 1 Byte = 8 Bit
+        > 1 || 0 = 1 Bit
+
         |Data Types|Rentang|Byte|
         |:-:|:-:|:-:|
         |char|-128 s/d 127 (ASCII)|1|
         |short|-32768 s/d 32767|2|
         |int|-2147483648 s/d 2147483647|4|
-        |long long|-9223372036854775808 s/d -9223372036854775807|8|
+        |long long|-9223372036854775808 s/d 9223372036854775807|8|
         |float|6-7 digit presisi|4|
         |double|15 digit presisi|8|
         |Unsigned|0 - MAX*2-1|-|
+        > float = 12345,67891467
+        > double = 12345678912,34567890
 
     - Typecasting
         > Convert antar tipe data
         ```c
         float A = 9.8;
         int B = (int) A; // 9
+        // Typecasting itu difloor.
         ```
-- [ ] Variable
+- [x] Variable
     > Nama suatu penyimpan data.
     - Tidak boleh ada spasi.
     - Diawali alphabet.
@@ -56,7 +67,7 @@
     - Global & Local Variable
         Hak akses penggunaan variabel.
 
-- [ ] I/O
+- [x] I/O
     `stdio.h`
     |Format|Data Types|
     |:-:|:-:|
@@ -70,16 +81,21 @@
     |`%[^x]`|char [] sampai bertemu x|
     |`%p`|Address|
     - Input
-        
+        Buffer
+        |0|1|2|3|4|5|6|
+        |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+        |N|A|W|W|A|L|\n|
         ```c
         scanf(format, &variable);
         ```
     - Output
         ```c
         printf(format, variable);
+        // 2 angka di belakang koma
+        // 4 angka di belakang koma
         ```
 
-- [ ] Operator
+- [x] Operator
     - Arithmetic
         ```c
         total = A + B; // Penjumlahan
