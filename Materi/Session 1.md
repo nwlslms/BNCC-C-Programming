@@ -4,7 +4,7 @@
 
 > Main Course
 - [x] C Programming Language: Introduction
-    - C merupakan bahasa pemrograman yang ditemukan oleh **Dennis Ritchie**.
+    - C merupa  kan bahasa pemrograman yang ditemukan oleh **Dennis Ritchie**.
     - Meneruskan bahasa B, untuk sistem operasi UNIX.
     - C: Function and Struct
     - C++/c/Python: Class dan Object
